@@ -1,0 +1,95 @@
+EXTERNAL Name(charName)
+
+# portrait: left, Mai.jpg
+{Name("You")}
+Ah.. the sun..
+It's so late now… shouldn't we head back and just report this to the police?"
+
+{Name("Uncle")}
+Ah boy! I finally found you.
+
+{Name("Young Man")}
+…you came looking.
+
+{Name("Uncle")}
+Your dinner is getting cold at home.
+
+{Name("Young Man")}
+That's not what I meant, Pa.
+I'm not trying to throw away what our family built.
+I just don't want to spend my whole life wiping down the same six tables in a shop that's going to get torn down for a shopping mall anyway.
+
+{Name("Uncle")}
+What are you saying?!
+
+{Name("Young Man")}
+It's the truth, Pa!
+	
+{Name("Uncle")}
+So the shop your grandfather and I worked so hard for, means nothing to you?
+
+{Name("Young Man")}
+It means everything to me!
+That's why I can't watch it get erased and pretend nothing changed. I want to build something that lasts in a different way.
+
+{Name("You")}
+...Can I say something? 
+I don't know either of you. I don't even know how I got here.
+But… maybe it's not about choosing between the shop and the office.
+Maybe it's about not forgetting where you're standing when you get there.
+
+{Name("Young Man")}
+…that's oddly specific for a stranger.
+Actually, who are you? Pa's never mentioned you before.
+
+{Name("You")}
+I'm just… passing through. Long story.
+..I've been thinking about this more than I'd like.
+
+{Name("Uncle")}
+Heh. You're kind of wise for your age, girl.
+Haiz… Computer-mind or not… you're still my son.
+
+{Name("Young Man")}
+Still your shop, Pa. I'm not taking that from you.
+
+{Name("You")}
+(...They resolved it. I'm glad)
+(I guess I should leave them to it)
+
+{Name("Uncle")}
+Eh girl, wait ah!
+#UNCLE APPROACHES MC, PRESSES SOMETHING INTO HER HAND
+
+{Name("You")}
+Huh? 
+
+{Name("Uncle")}
+Here. 
+
+#CG: A WORN POSTCARD, HAND-ILLUSTRATED WITH THE OLD COFFEESHOP AND ITS SIGNBOARD
+Small thing, but… thank you.
+
+MC "…a postcard?"
+
+
+{Name("Uncle")}
+Something to remember the shop by.
+Keep it somewhere safe, ah. You look like the kind who forget where she put things.
+
+{Name("You")}
+?
+
+
+{Name("Uncle")}
+Haha. Just joking. Well, See you another time. 
+
+#MC POCKETS THE POSTCARD. THE WORLD BEGINS TO SHIMMER AT THE EDGES
+{Name("You")}
+Wait— it's happening again—
+#BEFORE SHE CAN MAKE SENSE OF IT, THE LIGHT SWALLOWS EVERYTHING
+poem
+
+
+
+

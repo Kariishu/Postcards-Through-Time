@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
 
 
-public class Script1 : MonoBehaviour
+public class Script3 : MonoBehaviour
 {
     [SerializeField]
     private TextAsset _InkJsonFile;
@@ -235,6 +236,6 @@ public class Script1 : MonoBehaviour
     IEnumerator EndStory()
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }

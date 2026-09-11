@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
     [SerializeField] AudioSource ButtonClick;
     [SerializeField] GameObject FadeOut;
