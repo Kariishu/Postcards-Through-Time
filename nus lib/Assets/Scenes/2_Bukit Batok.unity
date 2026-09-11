@@ -294,7 +294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9035035671211599904, guid: b34789f91fdb25e4192f1c95907a04ae, type: 3}
+  m_Sprite: {fileID: 3167602150364005272, guid: d48d90bcc07084849801f01378187170, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -670,8 +670,6 @@ MonoBehaviour:
   portraitLibrary:
   - tag: MaiShocked.jpg
     sprite: {fileID: 1115995568465431397, guid: 04f24a21a8605644cb4498e0721426d6, type: 3}
-  - tag: Unc.jpg
-    sprite: {fileID: 9035035671211599904, guid: b34789f91fdb25e4192f1c95907a04ae, type: 3}
   - tag: MaiWorried.jpg
     sprite: {fileID: 3439570080737893283, guid: 35185fdd9074b894a99c3717aefb0197, type: 3}
   - tag: MaiFlat.jpg
@@ -680,6 +678,12 @@ MonoBehaviour:
     sprite: {fileID: 2043146576054325881, guid: 3f589070356d4aa4f8c998e963cf0671, type: 3}
   - tag: MaiWorriedSmile.jpg
     sprite: {fileID: 4722545383780273260, guid: db712548e27f71f499688634a5751015, type: 3}
+  - tag: UncChillTalk.jpg
+    sprite: {fileID: 562481759232087824, guid: 2d37cae38248f29468bf630d951ab169, type: 3}
+  - tag: UncGrumpLaugh.jpg
+    sprite: {fileID: -2255627421940304506, guid: 7e46e1e178e646b429889fba8897cd51, type: 3}
+  - tag: UncGrumpTalk.jpg
+    sprite: {fileID: 7507825333274838201, guid: 32a289471131942428030098350c527a, type: 3}
   typeSpeed: 0.03
   portraitLeft: {fileID: 1949252480}
   portraitRight: {fileID: 306127815}
@@ -973,7 +977,7 @@ GameObject:
   - component: {fileID: 1946067780}
   - component: {fileID: 1946067779}
   m_Layer: 5
-  m_Name: BG_Bedroom
+  m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1011,14 +1015,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8113208, g: 0.42709148, b: 0.42709148, a: 1}
+  m_Color: {r: 0.9169811, g: 0.8886195, b: 0.8771876, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 60d2df04568b09042b7a4ad8c11af747, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0

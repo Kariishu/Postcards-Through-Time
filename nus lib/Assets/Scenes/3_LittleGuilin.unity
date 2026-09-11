@@ -420,8 +420,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1946067778}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &730938701
@@ -636,37 +635,6 @@ RectTransform:
   m_AnchoredPosition: {x: 62, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1049983220
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1049983221}
-  m_Layer: 0
-  m_Name: SystemControl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1049983221
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049983220}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 949.6261, y: 603.4126, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1650823247
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +666,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1946067778}
   - {fileID: 1949252477}
   - {fileID: 306127817}
   - {fileID: 1930882024}
@@ -852,6 +821,101 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1878647122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878647123}
+  - component: {fileID: 1878647124}
+  m_Layer: 0
+  m_Name: SystemControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1878647123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878647122}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1135.1539, y: 526.3892, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1878647124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878647122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff68d1c01c56db24d987c1d78c357f90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Script3
+  _InkJsonFile: {fileID: 4900000, guid: 631d39bc9fcc22149bf155d8c028b52f, type: 3}
+  dialogueBox: {fileID: 269027287}
+  nameTag: {fileID: 735416425}
+  portraitLibrary:
+  - tag: MaiFlat.jpg
+    sprite: {fileID: 5686652568976423657, guid: f3d5155bb7a8ccf45a307d234358ddee, type: 3}
+  - tag: UncChill.jpg
+    sprite: {fileID: -3113818358055367055, guid: 217e68291f18b1b41ae1236d32dc0087, type: 3}
+  - tag: UncChillLaugh.jpg
+    sprite: {fileID: 3167602150364005272, guid: d48d90bcc07084849801f01378187170, type: 3}
+  - tag: MaiSmile.jpg
+    sprite: {fileID: 4722545383780273260, guid: db712548e27f71f499688634a5751015, type: 3}
+  - tag: UncChill.jpg
+    sprite: {fileID: -3113818358055367055, guid: 217e68291f18b1b41ae1236d32dc0087, type: 3}
+  - tag: UncChillTalking.jpg
+    sprite: {fileID: 562481759232087824, guid: 2d37cae38248f29468bf630d951ab169, type: 3}
+  - tag: Maiworry.jpg
+    sprite: {fileID: -7145692810571109434, guid: 116d162d32b745e48a2b1b269e1b7d58, type: 3}
+  - tag: Uncwise.jpg
+    sprite: {fileID: 62871024942626579, guid: cc528d99df4efef41a723b12410fe366, type: 3}
+  - tag: ma.jpg
+    sprite: {fileID: 4722545383780273260, guid: db712548e27f71f499688634a5751015, type: 3}
+  - tag: ulol.jpg
+    sprite: {fileID: -2255627421940304506, guid: 7e46e1e178e646b429889fba8897cd51, type: 3}
+  - tag: ms.jpg
+    sprite: {fileID: 3856089964389995293, guid: e226d572907408a42aa2f8ecb650029c, type: 3}
+  - tag: mhepi.jpg
+    sprite: {fileID: 3821822980594097641, guid: a8ce9560f20584441a9d0f607a5408ec, type: 3}
+  - tag: ug.jpg
+    sprite: {fileID: 7507825333274838201, guid: 32a289471131942428030098350c527a, type: 3}
+  - tag: ugrump.jpg
+    sprite: {fileID: 5660989278299313939, guid: e344ef5bad7118241995b0b575b8708a, type: 3}
+  - tag: moh.jpg
+    sprite: {fileID: 5686652568976423657, guid: f3d5155bb7a8ccf45a307d234358ddee, type: 3}
+  - tag: ulol.jpg
+    sprite: {fileID: -2255627421940304506, guid: 7e46e1e178e646b429889fba8897cd51, type: 3}
+  - tag: ug.jpg
+    sprite: {fileID: 5660989278299313939, guid: e344ef5bad7118241995b0b575b8708a, type: 3}
+  - tag: ma.jpg
+    sprite: {fileID: 4722545383780273260, guid: db712548e27f71f499688634a5751015, type: 3}
+  - tag: ugrump.jpg
+    sprite: {fileID: 7507825333274838201, guid: 32a289471131942428030098350c527a, type: 3}
+  - tag: misp.jpg
+    sprite: {fileID: 2043146576054325881, guid: 3f589070356d4aa4f8c998e963cf0671, type: 3}
+  typeSpeed: 0.03
+  portraitLeft: {fileID: 1949252480}
+  portraitRight: {fileID: 306127815}
+  leftPos: {x: -300, y: 0}
+  rightPos: {x: 300, y: 0}
+  centerPos: {x: 0, y: 0}
+  moveSpeed: 0.5
 --- !u!1 &1930882023
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,17 +1014,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946067777}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 567802449}
+  m_Father: {fileID: 1650823248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 959.99005, y: 557.072}
-  m_SizeDelta: {x: 1920, y: 1114.1}
+  m_AnchoredPosition: {x: -24.65, y: 619}
+  m_SizeDelta: {x: 1969.3, y: 2719.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1946067779
 MonoBehaviour:
@@ -975,14 +1039,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8113208, g: 0.42709148, b: 0.42709148, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 39bae98162897ba4caaa7e223ec33226, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1079,4 +1143,4 @@ SceneRoots:
   - {fileID: 567802449}
   - {fileID: 1650823248}
   - {fileID: 1864147470}
-  - {fileID: 1049983221}
+  - {fileID: 1878647123}

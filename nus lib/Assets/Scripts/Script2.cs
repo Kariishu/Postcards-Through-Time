@@ -235,6 +235,6 @@ public class Script2 : MonoBehaviour
     IEnumerator EndStory()
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 }

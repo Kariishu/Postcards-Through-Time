@@ -331,6 +331,63 @@ RectTransform:
   m_AnchoredPosition: {x: 520, y: -647}
   m_SizeDelta: {x: 528.7908, y: 1974.7}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &442615230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 442615232}
+  - component: {fileID: 442615231}
+  m_Layer: 0
+  m_Name: SystemControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &442615231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442615230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e2f527cfd85d644b2d830607644cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Script5
+  _InkJsonFile: {fileID: 4900000, guid: 13e071519e5404d439039a7e9c4eb69e, type: 3}
+  dialogueBox: {fileID: 269027287}
+  nameTag: {fileID: 735416425}
+  portraitLibrary:
+  - tag: Mai.jpg
+    sprite: {fileID: 3856089964389995293, guid: e226d572907408a42aa2f8ecb650029c, type: 3}
+  typeSpeed: 0.03
+  portraitLeft: {fileID: 1949252480}
+  portraitRight: {fileID: 306127815}
+  leftPos: {x: -300, y: 0}
+  rightPos: {x: 300, y: 0}
+  centerPos: {x: 0, y: 0}
+  moveSpeed: 0.25
+--- !u!4 &442615232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442615230}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 797.57025, y: 367.17288, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &567802446
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,65 +878,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1878647122
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1878647123}
-  - component: {fileID: 1878647124}
-  m_Layer: 0
-  m_Name: SystemControl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1878647123
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878647122}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1135.1539, y: 526.3892, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1878647124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878647122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff68d1c01c56db24d987c1d78c357f90, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Script3
-  _InkJsonFile: {fileID: 4900000, guid: 631d39bc9fcc22149bf155d8c028b52f, type: 3}
-  dialogueBox: {fileID: 269027287}
-  nameTag: {fileID: 735416425}
-  portraitLibrary:
-  - tag: Mai.jpg
-    sprite: {fileID: 5686652568976423657, guid: f3d5155bb7a8ccf45a307d234358ddee, type: 3}
-  - tag: Unc.jpg
-    sprite: {fileID: 9035035671211599904, guid: b34789f91fdb25e4192f1c95907a04ae, type: 3}
-  typeSpeed: 0.03
-  portraitLeft: {fileID: 1949252480}
-  portraitRight: {fileID: 306127815}
-  leftPos: {x: -300, y: 0}
-  rightPos: {x: 300, y: 0}
-  centerPos: {x: 0, y: 0}
-  moveSpeed: 0.5
 --- !u!1 &1930882023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,14 +1001,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RawImage
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8113208, g: 0.42709148, b: 0.42709148, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 18400d116ddac1b42bc2f5a5d28083c1, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1107,4 +1105,4 @@ SceneRoots:
   - {fileID: 567802449}
   - {fileID: 1650823248}
   - {fileID: 1864147470}
-  - {fileID: 1878647123}
+  - {fileID: 442615232}

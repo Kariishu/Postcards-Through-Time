@@ -9,23 +9,29 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/main_MENU.unity
+    path: Assets/Scenes/0_main_MENU.unity
     guid: edfde76d80963c847b97070f52a8c442
   - enabled: 1
-    path: Assets/Scenes/RoomScene.unity
+    path: Assets/Scenes/1_RoomScene.unity
     guid: 100650ead5436954bbde9817e130dfea
-  - enabled: 1
-    path: Assets/Scenes/Bukit Batok.unity
-    guid: 5a13c6d18a2ea1740a9a0d11824108b9
-  - enabled: 1
-    path: Assets/Scenes/LittleGuilin.unity
-    guid: 65f02a6e5a291204ab10b875762ef03a
   - enabled: 1
     path: Assets/Scenes/Minigame1.unity
     guid: 35100eb9965a1e449b48db0204482038
   - enabled: 1
+    path: Assets/Scenes/2_Bukit Batok.unity
+    guid: 5a13c6d18a2ea1740a9a0d11824108b9
+  - enabled: 1
+    path: Assets/Scenes/3_LittleGuilin.unity
+    guid: 65f02a6e5a291204ab10b875762ef03a
+  - enabled: 1
+    path: Assets/Scenes/4_Foundd.unity
+    guid: 56cbd354412adb346a4d9cc4c271b88d
+  - enabled: 1
     path: Assets/Scenes/Minigame 2.unity
     guid: 751e303f92e2ab64f927b0a4db4db42f
+  - enabled: 1
+    path: Assets/Scenes/Goodbye.unity
+    guid: b32f271d68463224db774f4fe0545203
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: f349369d04197ba42ac5b959e608fe8e

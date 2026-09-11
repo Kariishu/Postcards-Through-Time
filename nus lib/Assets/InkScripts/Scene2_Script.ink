@@ -20,7 +20,7 @@ Wait, no. This can't be Bukit Batok. It’s… different.
 Okay. Okay okay okay. This is a dream. This has to be a dream. I fell asleep on Dad's history books, that's all—
 
 {Name("Uncle")}
-# portrait: right, Unc.jpg
+# portrait: right, UncGrumpTalk.jpg
 # portrait: left, MaiShocked.jpg
 Aiyoh, you're not from around here, are you?
 
@@ -29,15 +29,19 @@ Aiyoh, you're not from around here, are you?
 I— wha— no. Sorry. I think I'm lost.
 
 {Name("Uncle")}
+# portrait: right, UncGrumpLaugh.jpg
 Ha!
+
+# portrait: right, UncChillTalk.jpg
 #UNCLE  SQUINTS AT HER, THEN SIGHS
-You look like town people. City clothes. Maybe you can help this old man.
+You look like a helpful young girl. Maybe you can help this old man.
 
 {Name("You")}
 # portrait: left, MaiWorried.jpg
 Help with… what?
 
 {Name("Uncle")}
+# portrait: right, UncGrumpTalk.jpg
 My son. He ran off this afternoon, after we quarrel. Didn't take his dinner. Getting dark already.
 
 {Name("You")}

@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
 
 
-public class Script4 : MonoBehaviour
+public class Script5 : MonoBehaviour
 {
     [SerializeField]
     private TextAsset _InkJsonFile;
@@ -236,6 +236,6 @@ public class Script4 : MonoBehaviour
     IEnumerator EndStory()
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(6);
+        dialogueBox.text = "Thank You for Playing!";
     }
 }

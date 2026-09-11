@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,7 +16,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<Texture2D> imageTextures;
     [SerializeField] private Transform levelSelectPanel;
     [SerializeField] private Image levelSelectPrefab;
-    [SerializeField] private GameObject playAgainButton;
+
+    [Header("Scene Transition")]
+    [Tooltip("Name of the scene to load when the puzzle is completed. Must be added to Build Settings.")]
+    [SerializeField] private string nextSceneName;
 
     private List<Transform> pieces;
     private Vector2Int dimensions;
@@ -233,23 +237,8 @@ public class GameManager : MonoBehaviour
             piecesCorrect++;
             if (piecesCorrect == pieces.Count)
             {
-                playAgainButton.SetActive(true);
+                SceneManager.LoadScene(nextSceneName);
             }
         }
-    }
-
-    public void RestartGame()
-    {
-        // Destroy all the puzzle pieces.
-        foreach (Transform piece in pieces)
-        {
-            Destroy(piece.gameObject);
-        }
-        pieces.Clear();
-        // Hide the outline
-        gameHolder.GetComponent<LineRenderer>().enabled = false;
-        // Show the level select UI.
-        playAgainButton.SetActive(false);
-        levelSelectPanel.gameObject.SetActive(true);
     }
 }
