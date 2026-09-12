@@ -19,9 +19,12 @@ public class Script4 : MonoBehaviour
     public TMP_Text dialogueBox;
     public TMP_Text nameTag;
 
+    [SerializeField] FadeController fader;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        StartCoroutine(fader.FadeFromColor(2f));
         portraitLeft.gameObject.SetActive(false);
         portraitRight.gameObject.SetActive(false); 
         LoadStory();
@@ -235,7 +238,8 @@ public class Script4 : MonoBehaviour
 
     IEnumerator EndStory()
     {
-        yield return new WaitForSeconds(2);
+        yield return StartCoroutine(fader.FadeToColor(Color.white, 2f));
+        yield return new WaitForSeconds(4);
         SceneManager.LoadScene(6);
     }
 }

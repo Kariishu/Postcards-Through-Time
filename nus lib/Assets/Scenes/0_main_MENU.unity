@@ -1219,6 +1219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   ButtonClick: {fileID: 86779070}
   FadeOut: {fileID: 529973990}
+  fadePanel: {fileID: 529973995}
+  fadePanelImage: {fileID: 529973993}
 --- !u!4 &2050050484
 Transform:
   m_ObjectHideFlags: 0

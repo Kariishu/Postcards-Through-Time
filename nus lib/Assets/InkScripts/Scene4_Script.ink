@@ -5,9 +5,12 @@ EXTERNAL Name(charName)
 {Name("You")}
 Ah.. the sun..
 It's so late now… shouldn't we head back and just report this to the police?"
-
 # portrait: left, none
+
 # portrait: right, Son.jpg
+{Name("Young Man")}
+…
+
 {Name("Uncle")}
 ..!
 
@@ -89,8 +92,8 @@ Here.
 #CG: A WORN POSTCARD, HAND-ILLUSTRATED WITH THE OLD COFFEESHOP AND ITS SIGNBOARD
 Small thing, but… thank you.
 
-MC "…a postcard?"
-
+{Name("You")}
+…a postcard?
 
 {Name("Uncle")}
 Something to remember the shop by.
@@ -99,16 +102,15 @@ Keep it somewhere safe, ah. You look like the kind who forget where she put thin
 {Name("You")}
 ?
 
-
 {Name("Uncle")}
 Haha. Just joking. Well, See you another time. 
 
 # portrait: right, none
 #MC POCKETS THE POSTCARD. THE WORLD BEGINS TO SHIMMER AT THE EDGES
 {Name("You")}
-Wait— it's happening again—
+It's... the same poem in the back.
+"Evening by Batok Town" 
 #BEFORE SHE CAN MAKE SENSE OF IT, THE LIGHT SWALLOWS EVERYTHING
-poem
 
 
 

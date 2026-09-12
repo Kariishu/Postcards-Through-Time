@@ -18,10 +18,13 @@ public class Script5 : MonoBehaviour
 
     public TMP_Text dialogueBox;
     public TMP_Text nameTag;
+    public TMP_Text FinalWords;
+    [SerializeField] FadeController fader;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        StartCoroutine(fader.FadeFromColor(2f));
         portraitLeft.gameObject.SetActive(false);
         portraitRight.gameObject.SetActive(false); 
         LoadStory();
@@ -235,7 +238,9 @@ public class Script5 : MonoBehaviour
 
     IEnumerator EndStory()
     {
+        yield return StartCoroutine(fader.FadeToColor(Color.black, 2f));
         yield return new WaitForSeconds(2);
-        dialogueBox.text = "Thank You for Playing!";
+        FinalWords.text = "Professor Thumboo has provided a focal point for these places – and all the memories associated with them – to flourish. His poems act as time capsules, or even a time-travel machine, bringing the reader from past to present. He transports readers back to a time that they both might remember"
+;
     }
 }

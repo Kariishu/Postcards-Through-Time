@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
     [Tooltip("Name of the scene to load when the puzzle is completed. Must be added to Build Settings.")]
     [SerializeField] private string nextSceneName;
 
+    [SerializeField] FadeController fader;
+
     private List<Transform> pieces;
     private Vector2Int dimensions;
     private float width;
@@ -237,8 +239,14 @@ public class GameManager : MonoBehaviour
             piecesCorrect++;
             if (piecesCorrect == pieces.Count)
             {
-                SceneManager.LoadScene(nextSceneName);
+                StartCoroutine(CompletePuzzle());
             }
         }
+    }
+    private IEnumerator CompletePuzzle() // <- separate method, this one CAN use yield return
+    {
+        yield return StartCoroutine(fader.FadeToColor(Color.white, 2f));
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene(nextSceneName);
     }
 }
